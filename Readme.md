@@ -1,0 +1,1 @@
+### Fooodmine angular app.
