@@ -8,10 +8,19 @@
                     ❤
                 </span>
                 <div class="stars">
-                    
-
+                    <star-rating [stars]="food.stars" ></star-rating>
                 </div>
-                
+                <div class="origins">
+                    <span *ngFor="let origin of food.origins"> {{origin}}</span>
+                </div>
+                <div class="cook-time">
+                    <span>🕒</span>
+                    {{food.cookTime}}
+                </div>
+                <div class="price">
+                    <span>{{food.price}}</span>
+                    
+                </div>
             </div>
         </a>
     </li>
